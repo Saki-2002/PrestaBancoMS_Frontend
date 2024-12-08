@@ -48,7 +48,7 @@ export default function Sidemenu({ open, toggleDrawer }) {
           <ListItemText primary="Solicitar Crédito" />
         </ListItemButton>
 
-        <ListItemButton onClick={() => navigate("/evaluate/list")}>
+        <ListItemButton onClick={() => navigate("/evaluation")}>
           <ListItemIcon>
             <PlagiarismIcon />
           </ListItemIcon>

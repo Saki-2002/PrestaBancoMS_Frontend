@@ -9,6 +9,7 @@ import UserRegister from './components/UserRegister'
 import { AuthProvider } from './context/AuthContext';
 import MCApplication from './components/MCApplication';
 import MCTracking from './components/MCTracking';
+import MCEvaluation from './components/MCEvaluation';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='/register' element={<UserRegister />} />
             <Route path='/mcapplication' element={<MCApplication/>} />
             <Route path='/tracking' element={<MCTracking/>} />
+            <Route path='/evaluation' element={<MCEvaluation/>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
